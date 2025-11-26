@@ -15,6 +15,13 @@ int main() {
         printf("*p = %d, Adresse = %p\n", *p, p);
         p++;
     }
+printf("\nArithmétique et relations entre pointeurs\n");
+    int a[5]={1,2,3,4,5};
+    int *h = a;
+    int *q = &a[3];
+    printf(" q - h = %d\n", q-p);
+    printf(" *(q - 2) = %d\n", *(q - 2));
+    printf("*(h + 4) = %d\n", *(p + 4));
 
     return 0;
 }
